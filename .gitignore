@@ -1,0 +1,64 @@
+# ==========================================
+# Environments & Packages (Crucial for ML)
+# ==========================================
+venv/
+.venv/
+env/
+.env
+bin/
+lib/
+include/
+share/
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.poetry/
+anaconda-project.lock
+
+# ==========================================
+# Machine Learning & Data Artifacts
+# ==========================================
+# Ignore large datasets (Add your custom data paths here if needed)
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.pickle
+*.pkl
+*.h5
+*.joblib
+
+# Ignore heavy ML model checkpoints/weights
+artifacts/
+saved_models/
+checkpoints/
+
+# ==========================================
+# Python Bytecode & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# ==========================================
+# Jupyter Notebooks Cache
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+~*.ipynb
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db

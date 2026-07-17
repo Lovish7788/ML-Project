@@ -1,0 +1,2 @@
+[2026-07-17 11:05:48,354]  48  root - INFO - Divide by zero
+[2026-07-17 11:05:48,354]  37  root - ERROR - Error occurred in python script name [C:\Users\lenovo\Desktop\placement project\Machine-Learning-Project\src\exception.py] line number [45] error message [division by zero]
